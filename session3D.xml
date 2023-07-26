@@ -69,7 +69,7 @@
             <N VAR="p" USERDEFINEDTYPE="H" VALUE="0" />
         </REGION>
         <REGION REF="1"> <!-- inflow -->
-            <D VAR="u" VALUE="U0" />
+            <D VAR="u" FILE="inflow.fld" />
             <D VAR="v" VALUE="V0" />
             <D VAR="w" VALUE="W0" />
 	    <N VAR="p" USERDEFINEDTYPE="H" VALUE="0" />  
@@ -84,7 +84,7 @@
       
         <!-- Specify the initial condition -->
         <FUNCTION NAME="InitialConditions">
-        <F VAR="u" FILE="inflow.fld" />
+        <F VAR="u" FILE="U0" />
         <E VAR="v" VALUE="V0" />
         <E VAR="w" VALUE="W0" />
         <E VAR="p" VALUE="0.0" />     
