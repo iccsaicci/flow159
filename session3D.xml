@@ -84,7 +84,7 @@
       
         <!-- Specify the initial condition -->
         <FUNCTION NAME="InitialConditions">
-        <F VAR="u" FILE="U0" />
+        <E VAR="u" VALUE="U0" />
         <E VAR="v" VALUE="V0" />
         <E VAR="w" VALUE="W0" />
         <E VAR="p" VALUE="0.0" />     
